@@ -1,0 +1,50 @@
+{
+  "name": "sonea-mail",
+  "version": "0.0.1",
+  "description": "mail for sonea",
+  "main": "lib/sonea-mail.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Naxmeify@github.com/Ninevillage/sonea-mail.git"
+  },
+  "keywords": [
+    "mail",
+    "utilities",
+    "sonea"
+  ],
+  "author": {
+    "name": "Ninevillage",
+    "email": "info@ninevillage.com",
+    "url": "https://www.ninevillage.com"
+  },
+  "contributors": [
+    {
+      "name": "MRW Neundorf",
+      "email": "mohammed.neundorf@ninevillage.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ninevillage/sonea-mail/issues"
+  },
+  "homepage": "https://github.com/Ninevillage/sonea-mail",
+  "engines": {
+    "node": ">0.12.7",
+    "npm": ">=2.11"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "debug": "^2.2.0",
+    "lodash": "^3.10.1"
+  }
+}
